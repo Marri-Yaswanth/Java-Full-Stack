@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             const response = await
             fetch('https://jsonplaceholder.typicode.com/users');
-            if (!response.ok) {
+            if (!response.ok) { 
                 throw new Error(`HTTP error! Status:
                 ${response.status}`);
             }
